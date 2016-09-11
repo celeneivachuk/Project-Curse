@@ -1,0 +1,175 @@
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #121617;
+	font: 14px/20px Arial, Sans-serif;
+	color: #555;
+	margin:0px;
+}
+
+h1{	
+	font-size: 2.3em;
+	line-height: 50px;
+	padding: 5% 0;
+    color: #fff;
+}
+
+h2{
+	text-decoration: underline;
+    text-transform: uppercase;
+    color: #9e9e9e;
+	line-height: 2.7em;   
+}
+
+h3{
+	line-height: 110%;
+	padding:5% 0;
+}
+
+p{
+	padding: 1%;
+    color: #b7b7b7;
+}
+
+a{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #FFF;
+}
+
+header{
+	background:Black;
+	position: fixed;
+	width: 100%;
+	height: 110px;
+	top:0;
+	left: 0;
+	z-index: 1;
+	opacity: 0.9;
+}
+#logo{
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height:65px;
+	background: url(../Images/logo.jpg) no-repeat center;
+}
+nav{
+	float: right;
+	padding: 35px 20px 0;
+}
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url()
+}
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0 ;
+}
+ul{
+	list-style-type: none;
+}
+.navbar > ul > li{
+	display: inline-block;
+	float: left;
+	padding: 20px;
+}
+
+.navbar > ul > li> a:hover{
+    color: #b77800;
+}
+
+.current{
+	color:#FFF;
+	text-decoration: underline;
+}
+#doc{
+	margin: 40px 0;
+}
+#content{
+	margin: 0 auto;
+    width: 100%;
+/*	max-width: 1140px;*/
+	margin-top: 110px;
+	padding: 0px;
+}
+
+section{
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+article{
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	padding: 2%
+}
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	padding: 2%
+}
+
+footer{
+	background:black;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90; 
+
+}
+footer p, footer h3{
+	color: #FFF;
+}
+
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+ul .list-group-item li{
+	display: inline;
+}
+footer.second{
+	border-top: 1px solid #4D4E50;
+	background-color:Black;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95%;
+}
+
+.table-center > h2{
+    text-align: center;
+}
+
+.table-center ul li{
+    text-align: center;    
+}
+
+.read-me{
+    display: inline-block;
+    background-color: #a94d0c;
+    padding: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.read-me:hover{
+    background-color: #eaeaea;
+    color: #a94d0c;
+}
